@@ -1,0 +1,21 @@
+<ion-card>
+  <ion-card-header> 
+    <h1> Total <ion-icon class="align-item" name="close" (click)="dismiss()"></ion-icon></h1>
+  </ion-card-header>
+  <ion-card-content>
+
+    <ion-list>
+      <ion-item>
+        <ion-label >Dividir? Por Quantos?</ion-label>
+        <ion-input name="numero-pessoas" type="number" [(ngModel)]="numeroPessoas" (ngModelChange)="dividirTotal()"></ion-input>
+      </ion-item>
+      <ion-item>
+        <h2> Total: R$ {{ billTotal | number }} </h2>
+        <h2> Total Dividido: R$ {{ billForN | number }} </h2>
+      </ion-item>
+    </ion-list>
+
+    
+  </ion-card-content>
+</ion-card>
+

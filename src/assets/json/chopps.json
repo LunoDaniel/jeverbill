@@ -1,0 +1,86 @@
+[	
+	{
+		"nome": "Cristal",
+		"preco300": 7.40,
+		"preco500": 11.40,
+		"quantidade300":0,
+		"quantidade500":0
+	},
+	{
+		"nome": "Black",
+		"preco300": 7.40,
+		"preco500": 11.40,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Pilsen",
+		"preco300": 9.50,
+		"preco500": 14.20,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Session Citra",
+		"preco300": 9.50,
+		"preco500": 14.20,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Pale Ale",
+		"preco300": 9.50,
+		"preco500": 14.20,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Witte",
+		"preco300": 9.50,
+		"preco500": 14.20,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Niobium",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Pale Ale",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Dubbel",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Trippel",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Quadruppel",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		 "quantidade500":0
+	},
+	{
+		"nome": "Petrolium",
+		"preco300": 12.50,
+		"preco500": 19.90,
+		"quantidade300":0, 
+ 		"quantidade500":0
+	}
+]

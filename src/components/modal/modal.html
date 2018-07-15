@@ -1,0 +1,25 @@
+<ion-card>
+  <ion-card-header>
+    <h1> {{ chopp.nome }} <ion-icon class="align-item" name="close" (click)="dismiss()"></ion-icon>
+    </h1>
+    
+  </ion-card-header>
+  <ion-card-content>
+    <div align="center">
+      <p>300ml: {{chopp.quantidade300}} </p>
+      <button name="add-300" class="btn-color" ion-button icon-only (click)="add(300)" >
+          <ion-icon name="add"></ion-icon>
+      </button>
+      <button name="remove-300" class="btn-color" ion-button icon-only (click)="remove(300)" >
+          <ion-icon name="remove"></ion-icon>
+      </button>
+      <p>500ml: {{chopp.quantidade500}} </p>
+      <button name="add-500" class="btn-color" ion-button icon-only (click)="add(500)" >
+          <ion-icon name="add"></ion-icon>
+      </button>
+      <button name="remove-500" class="btn-color" ion-button icon-only (click)="remove(500)" >
+          <ion-icon name="remove"></ion-icon>
+      </button>
+    </div>
+  </ion-card-content>
+</ion-card>

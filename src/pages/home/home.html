@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Jever Bill<img class="img-topo" src="assets/imgs/logo-top.png" width="50%" height="50%" /> 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-list >
+  <button ion-item *ngFor="let chopp of choppesList" item-start (click)="alterarChoppes(chopp)" >
+    <ion-icon name="beer" item-start></ion-icon>
+    <h1> {{ chopp.nome }}  </h1>
+    <div align="right">
+      300ml:  <ion-badge class="badge-color" item-end>{{ chopp.quantidade300 | number }}</ion-badge>        
+      500ml:  <ion-badge class="badge-color" item-end>{{ chopp.quantidade500 | number }}</ion-badge>        
+    </div>
+  </button>
+ </ion-list>
+ <div align="center">
+    <button ion-button icon-right class="btn-color" (click)="configurarTotal()">
+      Total
+      <ion-icon name="cash"></ion-icon>
+    </button>
+    <button ion-button icon-right class="btn-color" (click)="limpar()">
+      Limpar
+      <ion-icon name="close"></ion-icon>
+    </button>
+  </div>
+</ion-content>
